@@ -34,6 +34,8 @@ class fizzBuzzKataTests {
 	public void mupltiplesOfFive() {
 		fizzBuzzKata fb = new fizzBuzzKata();
 		assertEquals("buzz", fb.fizzbuzzkata(5));
+		assertEquals("buzz", fb.fizzbuzzkata(25));
+		assertEquals("buzz", fb.fizzbuzzkata(85));
 	}
 	
 	@Test
