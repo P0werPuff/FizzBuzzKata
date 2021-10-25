@@ -3,7 +3,11 @@ package fizzbuzzkata;
 public class fizzBuzzKata {
 
 	public int[] getNumbers() {
-		return new int[100];
+		int[] numbers = new int[100];
+		for (int tick = 0; tick < numbers.length; tick++) {
+			numbers[tick] = tick + 1;
+		}
+		return numbers;
 	}
 	
 	public String fizzbuzzkata(int value) {
