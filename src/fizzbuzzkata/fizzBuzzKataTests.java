@@ -26,6 +26,8 @@ class fizzBuzzKataTests {
 	public void mupltiplesOfThree() {
 		fizzBuzzKata fb = new fizzBuzzKata();
 		assertEquals("fizz", fb.fizzbuzzkata(3));
+		assertEquals("fizz", fb.fizzbuzzkata(27));
+		assertEquals("fizz", fb.fizzbuzzkata(93));
 	}
 	
 	@Test
